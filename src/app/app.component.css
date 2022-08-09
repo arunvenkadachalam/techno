@@ -1,0 +1,182 @@
+.navebar
+{
+    width: 100%vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid rgb(255, 255, 0);
+    padding: 20px;
+    
+}
+.left
+{
+    width: 40%;
+}
+.navebar img{
+    width: 20%;
+    height: 80%;
+    margin-left: 20%;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+}
+.text button
+{
+    background-color: #e7d812;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+}
+
+
+.partners{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+
+}
+.one{
+    width: 33%;
+}
+.two{
+    width: 33%;
+}
+.three{
+    width: 33%;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+}
+.longtext
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://jvmlandscapes.com/wp-content/uploads/2021/06/jvm-about-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+   
+
+}
+#tes
+{
+    text-align: center;
+    
+}
+.testi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+.testi mat-icon{
+    background-color: yellow;
+    
+}
+.sam{
+    width: 40%;
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 5px yellow;
+    margin-right: 10%;
+
+}
+.will{
+    width: 40%;
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 5px  yellow;
+}
+
+.sam h4{
+    background-color: #e7d812;
+    text-align: center;
+    display: inline;
+
+}
+.will h4{
+    background-color: #e7d812;  
+    display: inline;
+    
+    
+}
+
+#images img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    display: inline;
+    flex-direction:column;
+    border:2px solid black;
+    border-radius: 10px;
+    border: none;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    background-color:rgb(230, 227, 227);
+    border-radius:10px;
+} 
+.team img{
+    width: 200px;
+    height: 200px;
+    
+
+}
+#textfeald
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    }
+    #textfeald input
+    {
+        padding:5px ;
+        margin-bottom:2px;
+        
+    }
+    #textfeald button
+    {
+    width: 150px;
+    margin-top: 5px;
+    font-weight: bold;
+    }
+    .footer
+    {
+        width:100%;
+        height: 150px;
+        background-color: black;
+        color: white;
+       padding-top: 30px;
+        text-align: center;
+        margin-top: 20px;
+        
+
+    }
+    .footer img{
+        width: 20%;
+        height: 100px;
+    }
+    .footer mat-icon{
+        color: black;
+    }
+    mat-icon{
+        background-color:yellow;
+        border-radius: 20px;
+      
+    }
